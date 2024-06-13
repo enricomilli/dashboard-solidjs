@@ -103,7 +103,7 @@ export default function Nav() {
             />
 
             <a
-                href="mailto:blockpower@email.com"
+                href="mailto:company@email.com"
                 class="btn btn-sm mt-auto btn-neutral btn-outline w-full">
                 <MailIcon
                     height={15}
