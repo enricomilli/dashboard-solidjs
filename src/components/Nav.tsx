@@ -10,6 +10,7 @@ import MailIcon from "~/assets/dashboard/MailIcon.svg";
 import LogoutIcon from "~/assets/dashboard/LogoutIcon.svg";
 import ParentNavItem from "./dashboard/ParentNavItem";
 import { createEffect, createSignal } from "solid-js";
+import ThemeController from "./ThemeController";
 
 export default function Nav() {
     const location = useLocation();
@@ -102,9 +103,13 @@ export default function Nav() {
                 icon={SettingsIcon}
             />
 
+            <span class="mt-auto mx-auto my-1">
+                <ThemeController />
+
+            </span>
             <a
                 href="mailto:company@email.com"
-                class="btn btn-sm mt-auto btn-neutral btn-outline w-full">
+                class="btn btn-sm btn-neutral btn-outline w-full">
                 <MailIcon
                     height={15}
                     width={15}
