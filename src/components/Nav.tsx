@@ -25,7 +25,7 @@ export default function Nav() {
         path == location.pathname && path == dashboardState() ? "btn btn-neutral" : "btn btn-ghost";
 
     return (
-        <nav class="h-[100vh] w-[250px] flex flex-col items-start py-6 px-5 gap-2 border-r-2 border-base-300 z-20">
+        <nav class="h-[100vh] min-w-[250px] flex flex-col items-start py-6 px-5 gap-2 border-r-2 border-base-300 z-20">
             <div class="mb-10 px-4">
                 <BPSIcon
                     fill="currentColor"
